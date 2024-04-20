@@ -1,12 +1,9 @@
 #  SDSC Jupyter Notebooks Collection
 
-**Last Updated:   02/18/2022**
+**Last Updated:   04/20/2024**
 
-<hr>
+Note: The contents of this repository have been archived.
 
-This repository contains a collection of Jupyter Notebooks that have been tested to run on SDSC HPC systems.
+## Updated notebooks can be found here: https://github.com/sdsc-hpc-training-dev/notebook-examples-expanse/tree/main 
 
 
-
-<hr>
-*Contact the XSEDE Help Desk if you have any problems:   help@xsede.org*
