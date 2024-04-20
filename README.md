@@ -1,9 +1,9 @@
-#  SDSC Jupyter Notebooks Collection
+#  SDSC notebooks-exapmles Collection
 
-**Last Updated:   04/20/2024**
+## Update Notes:
 
-Note: The contents of this repository have been archived.
+## 04/20/2024: The contents of this repository have been archived.
 
-## Updated notebooks can be found here: https://github.com/sdsc-hpc-training-dev/notebook-examples-expanse/tree/main 
+## 04/20/2024: Updated notebooks can be found here: https://github.com/sdsc-hpc-training-dev/notebook-examples-expanse/tree/main 
 
 
