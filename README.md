@@ -1,2 +1,4 @@
 # notebook-examples-expanse
-A collection of notebooks that run on Expanse including basic and parallel notebooks that run on CPU and GPUs
+* development collection for production notebooks 
+* copy approved notebooks from notebooks-2024-staging
+* last update: 4/20/2024
