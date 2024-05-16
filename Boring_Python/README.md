@@ -1,46 +1,63 @@
-# Date (last updated): Feb 2024
+# SDSC Expanse Notebook:Boring_Python
+This README file provides instructions for Expanse users to run Boring Python notebooks on Expanse.\
+  **Listof Content**
+- [Import Module](##import_module)
+- [Launch Galyleo](##launch-galyleo)
+- [Environment Modules](##environment-modules)
+- [Install Modules](##install-modules)
+- [Location](##location)
+- [Table of Contents](##table_of_contents)
+- [Sources](##sources)
 
-# Run CPU/GPU
+## Import Module:
+- Path
+- os
+- pyinputplus
+- pyip
+- pyperclip
+- re
+- sys
+- pprint
+- random
+- copy
 
-# SDSC HPC User Training Notebook Catalog: Boring Python
+## Launch Galyleo
+For specific information about launching Galyleo, please refer to [this GitHub repository](https://github.com/mkandes/galyleo).
 
-# Import Module:
-  * Path/os/pyinputplus/pyip/pyperclip/re/sys/pprint/random/copy
- 
-# Install Package: 
-  * pyinputplus
-  * pyperclip
+## Environment Modules
+By utilizing `--env-modules`, we can load any software installed in Expanse. 
+For instance, executing this command line will load CPU modules and Anaconda3 within the Jupyter session.
+  - CPU:
+`--env-modules cpu/0.17.3b,anaconda3`
+```
+galyleo launch --account abc123 --partition shared --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05
+```
+Also this command line loads GPU modules and Anaconda3 in the Jupyter session to run in a GPU environment.
+ - GPU:
+`--env-modules  gpu/0.17.3b,anaconda3/2021.05`
+```
+galyleo launch --account abc123 —partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 00:30:00  --env-modules  gpu/0.17.3b,anaconda3/2021.05 --bind /oasis,/scratch --nv
+```
+## Install Modules
+To run Boring _Python notebooks, we need to install additional packages.
+- pyinputplus
+- pyperclip
 
-# Launch galyleo 
-  1) Expanse :
-  export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
-  galyleo launch --account abc123 --partition shared --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05
- 
+## Location 
 
+Boring_Python\
+├── [boring_python_chapter_1.ipynb](./boring_python_chapter_1.ipynb)\
+├── [boring_python_chapter_2.ipynb](./boring_python_chapter_2.ipynb)\
+├── [boring_python_chapter_3.ipynb](./boring_python_chapter_3.ipynb)\
+├── [boring_python_chapter_4.ipynb](./boring_python_chapter_4.ipynb)\
+├── [boring_python_chapter_5.ipynb](./boring_python_chapter_5.ipynb)\
+├── [boring_python_chapter_6.ipynb](./boring_python_chapter_6.ipynb)\
+├── [boring_python_chapter_7.ipynb](./boring_python_chapter_7.ipynb)\
+├── [boring_python_chapter_8.ipynb](./boring_python_chapter_8.ipynb)\
+├── [boring_python_chapter_9.ipynb](./boring_python_chapter_9.ipynb)\
+├── README.md
 
-# Notebook Chapters
-* boring_python_chapter_1.ipynb
-* boring_python_chapter_2.ipynb
-* boring_python_chapter_3.ipynb
-* boring_python_chapter_4.ipynb
-* boring_python_chapter_5.ipynb
-* boring_python_chapter_6.ipynb
-* boring_python_chapter_7.ipynb
-* boring_python_chapter_8.ipynb
-* boring_python_chapter_9.ipynb
-
-# Location:
-* [boring_python_chapter_1.ipynb](./boring_python_chapter_1.ipynb)
-* [boring_python_chapter_2.ipynb](./boring_python_chapter_2.ipynb)
-* [boring_python_chapter_3.ipynb](./boring_python_chapter_3.ipynb)
-* [boring_python_chapter_4.ipynb](./boring_python_chapter_4.ipynb)
-* [boring_python_chapter_5.ipynb](./boring_python_chapter_5.ipynb)
-* [boring_python_chapter_6.ipynb](./boring_python_chapter_6.ipynb)
-* [boring_python_chapter_7.ipynb](./boring_python_chapter_7.ipynb)
-* [boring_python_chapter_8.ipynb](./boring_python_chapter_8.ipynb)
-* [boring_python_chapter_9.ipynb](./boring_python_chapter_9.ipynb)
-
-# Table of Contents
+## Table of Contents
 | Chapter   | Package Dependencies  | Keywords                                | Short Description |
 | --------- | --------------------  | --------                                       | ----------------- |
 | Chapter 1: Python Basics   | N/A                   | basic, data types, math, operator              | This notebook begins with running expressions into the interactive shell, python math operations, and variable types. It also includes basic string functions and concatenation. |
@@ -53,8 +70,6 @@
 | Chapter 8: Input Validation | pyinputplus          |input/output, input validation, keys, keywords| This notebook reviews input validation that checks values entered by a user. The PyInputPlus module methods are used to verify text inputs, set a limit to user inputs, create custom validation logic, etc. |
 | Chapter 9: Reading and Writing Files | pathlib, os, shelve, pprint, myCats|file processing, reading, writing|This notebook examines the basics of file paths and how to use the interactive shell on various operating systems. It goes over how to open, read, and write to files, as well as how to save and format variables with the shelve and pprint modules.|
 
-# Sources
+## Sources
 These notebooks are adapted from the e-book *Automate the Boring Stuff* by Al Sweigart. The original ebook can be found [here](https://automatetheboringstuff.com/). 
 These are adapted to run on HPC systems. They contain fundemental Python knowledge, projects and examples included. Enjoy!
-
-

@@ -39,6 +39,3 @@ Hello_World\
 ├── [hello_world_cpu.ipynb](./hello_world_cpu.ipynb)\
 ├── [hello_world_gpu.ipynb](./hello_world_gpu.ipynb)\
 ├── README.md
-
-
-
