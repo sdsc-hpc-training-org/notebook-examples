@@ -1,30 +1,49 @@
-# Date(last updated) : March/2024
+# SDSC Expanse Notebook: Boring_Python
+This README file provides instructions for Expanse users to run String_Processing notebooks in the Expanse.
+A brief introduction to regression using scikit-learn. Covers basic linear regression, multiple linear regression, combining scikit-learn with pandas and working with categorical data.\
+  **Listof Content**
+- [Import Module](##import_module)
+- [Launch Galyleo](##launch-galyleo)
+- [Environment Modules](##environment-modules)
+- [Install Modules](##install-modules)
+- [Location](##location)
+- [Table of Contents](##table-of-contents)
+- [Sources](##sources)
 
-# Run CPU/GPU
+## Import Module:
+- sklearn
+- linear_model 
+- mean_squared_error
+- r2_score
+- load_diabetes
+- numpy
+- pandas
+- stats
+- scipy
 
-# SDSC HPC User Training Notebook Catalog: PythonSeries-master
+## Launch Galyleo
+For specific information about launching Galyleo, please refer to [this GitHub repository](https://github.com/mkandes/galyleo).
 
-# Notebook Names
-  Regression.ipynb
+## Environment Modules
+By utilizing `--env-modules`, we can load any software installed in Expanse. 
+For instance, executing this command line will load CPU modules and Anaconda3 within the Jupyter session.
+  - CPU:
+`--env-modules cpu/0.17.3b,anaconda3`
+```
+galyleo launch --account abc123 --partition shared --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05
+```
+Also this command line loads GPU modules and Anaconda3 in the Jupyter session to run in a GPU environment.
+ - GPU:
+`--env-modules  gpu/0.17.3b,anaconda3/2021.05`
+```
+galyleo launch --account abc123 —partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 00:30:00  --env-modules  gpu/0.17.3b,anaconda3/2021.05 --bind /oasis,/scratch --nv
+```
+## Install Modules
+To run StringProcessing notebooks, we do not need to install any additional packages.
 
-# Import Module:
-  * linear_model, mean_squared_error, r2_score, numpy, matplotlib, pandas
-  
-# Install Package: 
-  * sklearn
-  * scipy
-  
-# Launch galyleo 
-  1) Expanse CPU
-  export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
-  galyleo launch --account abc123 --partition shared --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05
-  
-  2) Expanse GPU
-  export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
-  galyleo launch --account sds173 --partition gpu --gpus 2 --memory 16 --time-limit 00:30:00 --env-modules gpu/0.17.3b,anaconda3/2021.05
- 
-# Location:
-- [Regression.ipynb](./Regression.ipynb)
+## Location 
 
-# Short Descriptions:
-  Explore regression models using Python's scikit learn (sklearn) package and the built data set.
+Boring_Python\
+├── [Regression.ipynb](./Regression.ipynb)
+├── README.md
+
