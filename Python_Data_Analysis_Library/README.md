@@ -4,11 +4,11 @@ pandas is a fast, powerful, flexible and easy to use open source data analysis a
 
 This notebook will give you an introduction to PANDAS. Enjoy!/
   **Listof Content**
-- [Import Module](##import_module)
-- [Launch Galyleo](##launch-galyleo)
-- [Environment Modules](##environment-modules)
-- [Install Modules](##install-modules)
-- [Location](##location)
+- [Import Module](#import-module)
+- [Launch Galyleo](#launch-galyleo)
+- [Environment Modules](#environment-modules)
+- [Install Modules](#install-modules)
+- [Location](#location)
 
 ## Import Module:
 - Image
@@ -33,10 +33,10 @@ galyleo launch --account abc123 —partition gpu-shared --cpus 10 --memory 92 --
 ```
 ## Install Modules
 To run PandasCSV notebook, we do not need to install any additional packages.
-## Location 
 
+## Location 
 Python_Data_Analysis_Library\
-├── [PandasCSV.ipynb](./pandascsv.ipynb)\
+├── [PandasCSV.ipynb](./PandasCSV.ipynb)\
 ├── README.md
 
 

@@ -3,13 +3,14 @@ This README file provides instructions for Expanse users to run NumPy_intro note
 
 NumPy is a fundamental numerical Python package. It includes array objects, high level array manipulation functions, and more. 
 numpy_intro.ipynb: This is an introduction to NumPy. The notebook explores n-dimentional arrays; basic NumPy functions like creating arrays, reshaping and manipulating arrays; some general linear algebra capabilities; and sampling for HPC capacities.\
-  **Listof Content**
-- [Import Module](##import_module)
-- [Launch Galyleo](##launch-galyleo)
-- [Environment Modules](##environment-modules)
-- [Install Modules](##install-modules)
-- [Location](##location)
-- [Sources](##sources)
+ 
+ **Listof Content**
+- [Import Module](#import-module)
+- [Launch Galyleo](#launch-galyleo)
+- [Environment Modules](#environment-modules)
+- [Install Modules](#install-modules)
+- [Location](#location)
+- [Sources](#sources)
 
 ## Import Module:
 - numpy
@@ -39,7 +40,6 @@ galyleo launch --account abc123 —partition gpu-shared --cpus 10 --memory 92 --
 To run numpy_intro notebook, we do not need to install any additional packages.
 
 ## Location 
-
 NumPy_Intro\
 ├── [numpy_intro.ipynb](./numpy_intro.ipynb)\
 ├── README.md

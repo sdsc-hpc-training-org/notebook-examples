@@ -8,12 +8,12 @@ Keep in mind the added files:
 • olympics.csv  
 These contain the necessary data for the notebook to run.\
   **Listof Content**
-- [Import Module](##import_module)
-- [Launch Galyleo](##launch-galyleo)
-- [Environment Modules](##environment-modules)
-- [Install Modules](##install-modules)
-- [Location](##location)
-- [Sources](##sources)
+- [Import Module](#import-module)
+- [Launch Galyleo](#launch-galyleo)
+- [Environment Modules](#environment-modules)
+- [Install Modules](#install-modules)
+- [Location](#location)
+- [Sources](#sources)
 
 ## Import Module:
 - numpy
@@ -40,7 +40,6 @@ galyleo launch --account abc123 —partition gpu-shared --cpus 10 --memory 92 --
 To run data_analysis_pandas notebook, we do not need to install additional packages.
 
 ## Location 
-
 Data_Analysis\
 ├──[data_analysis_pandas.ipynb](./data_analysis_pandas.ipynb)
 ├── README.md

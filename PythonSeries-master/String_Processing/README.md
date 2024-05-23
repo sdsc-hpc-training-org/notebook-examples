@@ -2,13 +2,11 @@
 This README file provides instructions for Expanse users to run String_Processing notebooks in the Expanse.
 A brief introduction to regression using scikit-learn. Covers basic linear regression, multiple linear regression, combining scikit-learn with pandas and working with categorical data.\
   **Listof Content**
-- [Import Module](##import_module)
-- [Launch Galyleo](##launch-galyleo)
-- [Environment Modules](##environment-modules)
-- [Install Modules](##install-modules)
-- [Location](##location)
-- [Table of Contents](##table-of-contents)
-- [Sources](##sources)
+- [Import Module](#import-module)
+- [Launch Galyleo](#launch-galyleo)
+- [Environment Modules](#environment-modules)
+- [Install Modules](#install-modules)
+- [Location](#location)
 
 ## Import Module:
 - sklearn

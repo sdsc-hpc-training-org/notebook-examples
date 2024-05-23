@@ -1,13 +1,13 @@
 # SDSC Expanse Notebook: Clustering_Visulizations
 This README file provides instructions for Expanse users on how to run basic clustering methods, implement them in Python notebooks, and execute them on Expanse.\
   **Listof Content**
-- [Import Module](##import_module)
-- [Launch Galyleo](##launch-galyleo)
-- [Environment Modules](##environment-modules)
-- [Install Modules](##install-modules)
-- [Location](##location)
-- [Table of Contents](##table_of_contents)
-- [Sources](##sources)
+- [Import Module](#import-module)
+- [Launch Galyleo](#launch-galyleo)
+- [Environment Modules](#environment-modules)
+- [Install Modules](#install-modules)
+- [Location](#location)
+- [Table of Contents](#table_of_contents)
+- [Sources](#sources)
 
 ## Import Module:
 - make_blobs
@@ -41,6 +41,6 @@ To run Introduction_to_Clustering notebook, we do not need to install additional
 ## Location 
 
 Clustering_Visulizations\
-├── [Introduction_to_Clustering.ipynb](./introduction_to_clustering.ipynb)\
+├── [Introduction_to_Clustering.ipynb](./Introduction_to_Clustering.ipynb)\
 ├── README.md
 
