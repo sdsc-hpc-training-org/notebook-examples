@@ -1,4 +1,4 @@
-#  SDSC notebooks-exapmles Collection
+#  SDSC notebooks-examples Collection
 
 ## Update Notes:
 
