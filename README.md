@@ -1,5 +1,10 @@
-# notebook-examples-expanse
-## 04/2024:  The contents of this repository are in the process of being archived.
+# notebook-examples
+* See:  https://github.com/sdsc-hpc-training-org/Expanse-Notebooks
+
+## 09/19/2024:  
+* Update: The contents of this repository have been archived.
+* Updated notebooks can be found in the _Expanse Notebooks Collection:_ https://github.com/sdsc-hpc-training-org/Expanse-Notebooks
+
 
 ### 08/04/2024: 
 * Updated notebooks can be found in the _Expanse Notebooks Collection:_ https://github.com/sdsc-hpc-training-org/Expanse-Notebooks
