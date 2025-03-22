@@ -1,5 +1,5 @@
 # notebook-examples
-* See:  https://github.com/sdsc-hpc-training-org/Expanse-Notebooks
+* The Expanse HPC/CI Notebook Collection has been moved to:  https://github.com/sdsc-hpc-training-org/Expanse-Notebooks
 
 ## 09/19/2024:  
 * Update: The contents of this repository have been archived.
